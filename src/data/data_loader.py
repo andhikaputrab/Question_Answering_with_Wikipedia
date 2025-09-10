@@ -1,9 +1,12 @@
 import wikipediaapi
+import nltk
 import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 from nltk.corpus import stopwords
+
+nltk.download('stopwords', quiet=True)
 
 class WikipediaFetcher:
     def __init__(self, language):
