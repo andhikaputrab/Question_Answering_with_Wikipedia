@@ -1,7 +1,6 @@
 import streamlit as st
 from src.utils.styling import load_css
 from page.Profile import show_profile
-from page.Overview import show_overview
 from page.Chat import chabot_wiki
 
 st.set_page_config(
