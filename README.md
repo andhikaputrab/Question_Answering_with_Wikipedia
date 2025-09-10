@@ -1,4 +1,4 @@
-# Question_Answering_with_Wikipedia
+# Question Answering with Wikipedia
 Question Answering Application with Wikipedia
 
 This application is designed to provide quick and accurate answers from Wikipedia as the main source of information. This app also uses Gemini LLM to reads, analyzes, and summarizes this information to construct a coherent and relevant answer. By combining Wikipedia reliable data with Gemini AI, the app offers an easy and intuitive way to explore and answer your questions.
