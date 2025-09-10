@@ -79,7 +79,6 @@ class HaystackPipeline:
         return rewriter_pipeline
 
     def answer_generator_pipeline(self):
-        HF_TOKEN = st.secrets["HF_TOKEN"]
         GOOGLE_TOKEN = st.secrets["GOOGLE_TOKEN"]
 
         # generator = HuggingFaceAPIChatGenerator(
