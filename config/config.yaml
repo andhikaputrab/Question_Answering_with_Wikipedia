@@ -1,0 +1,22 @@
+# Streamlit settings
+PAGE_OVERVIEW_TITLE: "Overview"
+PAGE_OVERVIEW_ICON: "static/img/home.png"
+LAYOUT_OVERVIEW: "wide"
+
+PAGE_TITLE_PROFILE: "Profile"
+PAGE_ICON_PROFILE: "static/img/profile.png"
+LAYOUT_PROFILE: "wide"
+
+PAGE_TITLE_CHAT: "Chat"
+PAGE_ICON_CHAT: "🤖"
+LAYOUT_CHAT: "wide"
+
+# Database Configuration
+DATABASE_NAME: "question_answering"
+COLLECTION_NAME: "wikipedia_documents"
+
+# MLflow Configuration
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "house_price_prediction"
+  artifact_path: "model"

@@ -1,0 +1,22 @@
+haystack-ai
+google-genai-haystack
+pydantic==2.10.5
+nltk
+pypdf
+mongodb-atlas-haystack
+sentence-transformers
+streamlit
+nvidia-haystack
+Wikipedia-API
+pandas==2.2.3
+scikit-learn==1.6.1
+mlflow==2.19.0
+fastapi==0.115.6
+uvicorn==0.34.0
+python-dotenv
+PyYAML==6.0.2
+pytest>=6.2.5
+httpx==0.28.1
+python-multipart>=0.0.5
+
+-e .

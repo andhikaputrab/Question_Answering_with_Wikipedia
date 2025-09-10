@@ -1,0 +1,2 @@
+Requirement already satisfied: pydantic in c:\users\andhi\anaconda3\envs\tensor_gpu\lib\site-packages (1.10.21)
+Requirement already satisfied: typing-extensions>=4.2.0 in c:\users\andhi\anaconda3\envs\tensor_gpu\lib\site-packages (from pydantic) (4.12.2)
